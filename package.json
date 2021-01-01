@@ -1,6 +1,14 @@
 {
   "name": "vmdc",
   "version": "0.1.0",
+  "license": "MIT",
+  "author": "aoisensi <me@aoisensi.info>",
+  "main": "dist/vmdc.common.js",
+  "unpkg": "dist/vmdc.umd.min.js",
+  "jsdelivr": "dist/vmdc.umd.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
